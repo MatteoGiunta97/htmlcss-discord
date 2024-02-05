@@ -36,6 +36,10 @@ button {
     border: none;
 }
 
+.img-size {
+    width: 100%;
+}
+
 /* TYPOGRAPHY */
 
 h1 {
@@ -124,10 +128,6 @@ h2 {
     min-height: 350px;
 }
 
-.item-2 {
-    background-image: url("img/item2.svg");
-}
-
 .container-400px-white {
     min-height: 400px;
     background-color: rgb(255, 255, 255);
@@ -140,10 +140,6 @@ h2 {
     min-height: 350px;
 }
 
-.item-3 {
-    background-image: url("img/item3.svg");
-}
-
 .container-700px-grey {
     min-height: 700px;
     background-color: rgb(211, 211, 211);
@@ -152,7 +148,6 @@ h2 {
 }
 
 .section-4 {
-    background-color: rgb(34, 139, 34);
     width: 500px;
     min-height: 650px;
 }
