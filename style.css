@@ -86,6 +86,14 @@ h3 {
     padding: 7px;
 }
 
+i {
+    padding:  7px;
+    color: white;
+}
+
+ul>:nth-child(1) {
+    color: rgb(142, 161, 225);
+}
 /*GRID LAYOUT */
 .col {
     display: flex;
@@ -204,15 +212,21 @@ h3 {
     min-height: 450px;
 }
 
-.section-1-fot>div {
-    border: 1px dashed white;
+#color-azure {
+    color:rgb(114, 137, 218);
+}
+
+#ita {
+    height: 10px;
+}
+
+#white {
+    color: white;
 }
 
 .container-100px-black {
     min-height: 100px;
     background-color: rgb(35, 39, 42);
-    border-top: 3px solid white;
-    border-bottom: 3px solid white;
     justify-content: center;
     align-items: center;
 }
@@ -220,7 +234,6 @@ h3 {
 .section-2-fot {
     width: 500px;
     min-height: 40px;
-    background-color: rgb(127, 255, 212);
     justify-content: space-between;
     align-items: center;
 }
